@@ -17,7 +17,7 @@ Fast speed 400kbit/s<br>
 Very very fast speed 3.4Mbit/s<br>
 
 ## Hal Code
-###Send
+### Send
 ```C++
 static const uint8_t I2CslavesAddress = 0x48 << 1;
 uint8_t* dataToSend[];
@@ -25,4 +25,4 @@ noOfbytes= strlen((char*)dataToSend);
 returnState = HAL_I2C_Master_Transmit(&hi2c1, I2CslavesAddress, dataToSend, noOfbytes, maxTime);
 ```
 I2CslavesAddress: The address of the I2C slaves devices
-dataToSend: the data to sebt 
+dataToSend: the data to sent 

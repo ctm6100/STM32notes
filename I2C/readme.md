@@ -12,3 +12,6 @@ R/W read or write(1bit) --->0 write , 1 read<br>
 
 ## I2C Communication
 ![image](https://github.com/ctm6100/STM32notes/blob/main/I2C/SDA.png?raw=true)
+Noraml speed is 100kbit/s<br>
+Fast speed 400kbit/s<br>
+Very very fast speed 3.4Mbit/s<br>

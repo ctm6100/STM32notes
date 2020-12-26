@@ -11,7 +11,7 @@ R/W read or write(1bit) --->0 write , 1 read<br>
 </P>
 
 ## I2C Communication
-![image](https://github.com/ctm6100/STM32notes/blob/main/I2C/SDA.png?raw=true)
+![image](https://github.com/ctm6100/STM32notes/blob/main/I2C/SDA.png?raw=true)<br>
 Noraml speed is 100kbit/s<br>
 Fast speed 400kbit/s<br>
 Very very fast speed 3.4Mbit/s<br>
